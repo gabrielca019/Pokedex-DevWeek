@@ -4,11 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="esse site é legal">
+
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
     <title>Pokedex - MapaDev Week</title>
 </head>
 
@@ -16,7 +24,8 @@
     <main>
         <div class="pokedex">
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon"> <!-- Pikachu -->
+                <div class="cartao-pokemon tipo-eletrico aberto">
+                    <!-- Pikachu -->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -47,7 +56,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon"> <!-- Bulbasaur -->
+                <div class="cartao-pokemon tipo-grama">
+                    <!-- Bulbasaur -->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
@@ -78,7 +88,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon"> <!-- Charmander -->
+                <div class="cartao-pokemon tipo-fogo">
+                    <!-- Charmander -->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
@@ -109,7 +120,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon"> <!-- Gyarados -->
+                <div class="cartao-pokemon tipo-agua">
+                    <!-- Gyarados -->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gyarados</h2>
@@ -140,7 +152,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon"> <!-- Gengar -->
+                <div class="cartao-pokemon tipo-trevas">
+                    <!-- Gengar -->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
@@ -171,7 +184,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon"> <!-- Dragonite -->
+                <div class="cartao-pokemon tipo-dragao">
+                    <!-- Dragonite -->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
@@ -205,7 +219,7 @@
             </div>
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="src/imagens/cabeca-pikachu.png" alt="Cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
